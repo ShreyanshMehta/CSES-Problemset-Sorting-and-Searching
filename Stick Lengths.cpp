@@ -41,7 +41,7 @@ void nikal_pehli_fursat_mai(){
         temp2 += abs(v[i]-v[n/2-1]);
     }
 
-    cout<<max(temp1, temp2)<<endl;
+    cout<<min(temp1, temp2)<<endl;
 }
 
 int main(){
